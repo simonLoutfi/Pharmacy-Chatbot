@@ -65,7 +65,7 @@ graph TB
         RF[Response Formatter]
     end
     
-    subgraph "LLM Layer - 100% Offline"
+    subgraph "LLM Layer"
         OLLAMA[Ollama Runtime<br/>https://ollama.com]
         MODEL[LLM<br/>]
     end
