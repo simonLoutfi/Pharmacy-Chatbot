@@ -66,8 +66,8 @@ graph TB
     end
     
     subgraph "LLM Layer - 100% Offline"
-        OLLAMA[Ollama Runtime<br/>localhost:11434]
-        MODEL[LLM<br/>Local Model]
+        OLLAMA[Ollama Runtime<br/>https://ollama.com]
+        MODEL[LLM<br/>]
     end
     
     subgraph "Data Layer"
